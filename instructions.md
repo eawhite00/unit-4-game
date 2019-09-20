@@ -35,7 +35,7 @@ Having an active and healthy commit history on GitHub is important for your futu
      * In the `javascript` folder, make a file called `game.js`.
      * In the `css` folder, make a file called `style.css`.
      * In the `css` folder, make a file called `reset.css`. Paste into it the code found from the Meyerweb Reset.
-     * In the images folder, save any of the images you plan on using.
+     * In the images folder, save any of the images you plan on using.w
 
 4. Set up your repository to deploy to Github Pages.
 

@@ -1,0 +1,17 @@
+.crystal{
+    border-radius: 8px;
+    width: 5rem;
+    float: left;
+}
+.crystalBox{
+    float: left;
+}
+
+#lastScore{
+    clear: both;
+}
+
+.jumbotron{
+    /* margin-bottom: 0; */
+    padding-bottom: 1rem;
+}
