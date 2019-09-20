@@ -8,33 +8,34 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/crystal" type="text/css"/>
 
 </head>
 <body>
 
         <div class="jumbotron">
-                <h1 class="display-4">Let's click some Crystals!</h1>
-                <p class="lead">Welcome to The Crystal Game! Try to match the target score by clicking on the
-                        individual crystals! Each one adds a seret number to your score. Match the target score
-                        and you win, but be careful not to go over or you'll lose!
+                <h1 class="display-4">The Crystal Game</h1>
+                <p class="lead">Welcome to The Crystal Game: Try to match the target score by clicking on the
+                        individual crystals! 
                 </p>
                 <hr class="my-4">
+                <p>Each crystal adds a seret number to your score. Match the target score
+                and you win, but be careful not to go over or you'll lose!
+                </p>
                 <p>Wins: <span id="winsText">0</span> </p>
                 <p>Losses: <span id="lossesText">0</span> </p>
         </div>
 
 
         <div id="infoText">
-
-                <p>Click a crystal!</p>
                 <p>Current Score: <span id="currentScoreDisplay">0</span></p>
                 <p>Target score: <span id="targetScoreDisplay">0</span></p>
         </div>
 
-        <div class="crystalBox" id="box1"><img class="crystal" src="assets/images/crystal1.png"></div>
-        <div class="crystalBox" id="box2"><img class="crystal" src="assets/images/crystal2.jpg"></div>
-        <div class="crystalBox" id="box3"><img class="crystal" src="assets/images/crystal3.jpg"></div>
-        <div class="crystalBox" id="box4"><img class="crystal" src="assets/images/crystal4.jpg"></div>
+                <div class="crystalBox" id="box1"><img class="crystal" src="assets/images/crystal1.png"></div>
+                <div class="crystalBox" id="box2"><img class="crystal" src="assets/images/crystal2.jpg"></div>
+                <div class="crystalBox" id="box3"><img class="crystal" src="assets/images/crystal3.jpg"></div>
+                <div class="crystalBox" id="box4"><img class="crystal" src="assets/images/crystal4.jpg"></div>
 
         <div id="lastScore">
         <p>Last crystal worth: <span id="lastScoreDisplay">0</span></p>
